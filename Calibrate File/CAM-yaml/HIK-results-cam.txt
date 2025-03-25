@@ -1,0 +1,20 @@
+Calibration results 
+====================
+Camera-system parameters:
+cam0 (/HIKcam/image_raw):
+    type: <class 'aslam_cv.libaslam_cv_python.DistortedOmniCameraGeometry'>
+    distortion: [ 0.100791    0.26262282 -0.00083984  0.00065279] +- [ 0.00848962  0.04838246  0.00031833  0.00028144]
+    projection: [    1.93123253  1503.98896073  1504.46247226  1238.905167    1011.09513363] +- [  0.02299878  12.47629811  12.51612788   0.53580944   0.56884465]
+    reprojection error: [-0.000007, -0.000002] +- [0.348405, 0.349481]
+
+
+
+Target configuration
+====================
+
+  Type: aprilgrid
+  Tags: 
+    Rows: 6
+    Cols: 6
+    Size: 0.0352 [m]
+    Spacing 0.01056 [m]

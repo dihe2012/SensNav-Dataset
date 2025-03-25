@@ -1,0 +1,25 @@
+============================================================
+中文：
+IMU到GNSS主天线的杆臂：
+IMU默认坐标系：前-左-上
+IMU1(WHEELTEC N100) to GNSS (X, Y, Z) : (-350.5, -300, 234.84 ) mm
+IMU2(MTI-680) to GNSS (X, Y, Z) : (-350.5, 0, 119.08 ) mm
+IMU3(HIPNUC HI4R5) to GNSS (X, Y, Z) : (-500.5, 0, 229.84 ) mm
+
+
+真值设备（Ground Truth，GT）到GNSS主天线的杆臂：
+IMU默认坐标系：右-前-上
+GT to GNSS (X, Y, Z) : (0, -350.5, 224.54 ) mm
+
+============================================================
+EN:
+Lever Arms from IMUs to GNSS Main Antenna:
+Default IMU Coordinate System: Front-Left-Up (FLU)
+IMU1 (WHEELTEC N100) to GNSS (X, Y, Z): (-350.5, -300.0, 234.84) mm
+IMU2 (MTI-680) to GNSS (X, Y, Z): (-350.5, 0.0, 119.08) mm
+IMU3 (HIPNUC HI4R5) to GNSS (X, Y, Z): (-500.5, 0.0, 229.84) mm
+
+
+Lever Arms from Ground Truth Device to GNSS Main Antenna:
+Default IMU Coordinate System: Right-Front-Up (RFU)
+Ground Truth to GNSS (X, Y, Z): (0.0, -350.5, 224.54) mm
