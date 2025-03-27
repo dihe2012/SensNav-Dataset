@@ -62,7 +62,7 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 To ensure temporal consistency, sensor data is collected using ROS. A GNSSDO with NTP synchronization is connected to the main GNSS antenna and to the data collection host via a network cable. Consequently, the system time of the data collection host is synchronized with UTC, resulting in a rough alignment between ROS time and UTC. Both GNSS receivers include GPS week-second timestamps in their respective ROS topics, which can be used to determine the offset between the ROS timestamp and GPS time.
 
 ### 1.4 Calibration
-For IMU calibration, three hours of data were collected under static conditions, and the noise parameters of the gyroscope and accelerometer were estimated using the open-source toolbox *imu_utils* ([链接](https://github.com/gaowenliang/imu_utils)).
+For IMU calibration, three hours of data were collected under static conditions, and the noise parameters of the gyroscope and accelerometer were estimated using the open-source toolbox *imu_utils* ([link](https://github.com/gaowenliang/imu_utils)).
 
 The camera calibration is performed using the *Kalibr* toolbox ([link](https://github.com/ethz-asl/kalibr)) to estimate the intrinsic parameters of both cameras. The RGB camera is calibrated using the *pinhole-radtan* model, while the fisheye camera is calibrated using the *omni-radtan* model.
 
@@ -76,10 +76,10 @@ After calibrating each IMU and camera individually, the RGB camera and the three
 |:-------------------:|:------------:|:------------------:|:---------------:|:------------:|:--------------------------------------------------------------------------------------------------:|:-------------------:|
 | 2025-01-15-14-25-49 |     10.9 GB     | 06:25:49- 06:44:27 | 1118s (18m:38s) |   5401.6 m   | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      Campus/Afternoon      |
 | 2025-01-15-15-00-35 |     7.6 GB     | 07:00:35- 07:15:05 |  870s (14m:30s) |   3869.94 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      Campus/Afternoon      |
-| 2025-01-15-17-01-24 |     569.1 MB     | 09:01:24- 09:39:06 | 2261s (37m:41s) |   18.62 km   |                   IMU1, IMU2, GNSS Receiver 1(RTK), GNSS Receiver 2, Ground Truth                  | Urban (including tunnel)/evening |
-| 2025-01-15-19-17-15 |     5.6 GB     | 11:17:15- 11:33:57 | 1001s (16m:41s) |   4683.97 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      campus/night      |
+| 2025-01-15-17-01-24 |     569.1 MB     | 09:01:24- 09:39:06 | 2261s (37m:41s) |   18.62 km   |                   IMU1, IMU2, GNSS Receiver 1(RTK), GNSS Receiver 2, Ground Truth                  | Urban (including tunnel)/Evening |
+| 2025-01-15-19-17-15 |     5.6 GB     | 11:17:15- 11:33:57 | 1001s (16m:41s) |   4683.97 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      Campus/Night      |
 | 2025-01-17-15-54-34 |     8.3 GB     |  07:54:34-08:08:58 |  863s (14m:23s) |   3865.18 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      Campus/Afternoon      |
-| 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      campus/night      |
+| 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      Campus/Night      |
 
 ### 2.2 download
 **Link:**
