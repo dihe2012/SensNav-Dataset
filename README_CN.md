@@ -66,12 +66,12 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 ### 2.1 数据序列信息汇总
 |     **序列名称**    | **文件大小** |     **UTC时间**    |     **时长**    | **路径长度** |                                             **传感器**                                             |       **描述**      |
 |:-------------------:|:------------:|:------------------:|:---------------:|:------------:|:--------------------------------------------------------------------------------------------------:|:-------------------:|
-| 2025-01-15-14-25-49 |     10.9 GB     | 06:25:49- 06:44:27 | 1118s (18m:38s) |   5401.6 m   | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      校园/下午      |
-| 2025-01-15-15-00-35 |     7.6 GB     | 07:00:35- 07:15:05 |  870s (14m:30s) |   3869.94 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      校园/下午      |
+| 2025-01-15-14-25-49 |     10.9 GB     | 06:25:49- 06:44:27 | 1118s (18m:38s) |   5401.6 m   | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/下午      |
+| 2025-01-15-15-00-35 |     7.6 GB     | 07:00:35- 07:15:05 |  870s (14m:30s) |   3869.94 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/下午      |
 | 2025-01-15-17-01-24 |     569.1 MB     | 09:01:24- 09:39:06 | 2261s (37m:41s) |   18.62 km   |                   IMU1, IMU2, GNSS Receiver 1(RTK), GNSS Receiver 2, Ground Truth                  | 城区（含隧道）/傍晚 |
-| 2025-01-15-19-17-15 |     5.6 GB     | 11:17:15- 11:33:57 | 1001s (16m:41s) |   4683.97 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      校园/晚上      |
-| 2025-01-17-15-54-34 |     8.3 GB     |  07:54:34-08:08:58 |  863s (14m:23s) |   3865.18 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      校园/下午      |
-| 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fish-eye camera, Ground Truth |      校园/晚上      |
+| 2025-01-15-19-17-15 |     5.6 GB     | 11:17:15- 11:33:57 | 1001s (16m:41s) |   4683.97 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/晚上      |
+| 2025-01-17-15-54-34 |     8.3 GB     |  07:54:34-08:08:58 |  863s (14m:23s) |   3865.18 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/下午      |
+| 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/晚上      |
 
 ### 2.2 下载
 **链接：**
