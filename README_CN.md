@@ -75,17 +75,17 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 
 ### 2.2 下载
 **链接：**
-- 2025-01-15-14-25-49: [夸克网盘](https://pan.quark.cn/s/c0e41bd1a872)，[网盘2](https:)
+- 2025-01-15-14-25-49: [夸克网盘](https://pan.quark.cn/s/c0e41bd1a872)
 
-- 2025-01-15-15-00-35: [夸克网盘](https://pan.quark.cn/s/b6e0f280884b)，[网盘2](https:)
+- 2025-01-15-15-00-35: [夸克网盘](https://pan.quark.cn/s/b6e0f280884b)
 
-- 2025-01-15-17-01-24: [夸克网盘](https://pan.quark.cn/s/71eed047fd05)，[网盘2](https:)
+- 2025-01-15-17-01-24: [夸克网盘](https://pan.quark.cn/s/71eed047fd05)
 
-- 2025-01-15-19-17-15: [夸克网盘](https://pan.quark.cn/s/dedab2e5185b)，[网盘2](https:)
+- 2025-01-15-19-17-15: [夸克网盘](https://pan.quark.cn/s/dedab2e5185b)
 
-- 2025-01-17-15-54-34: [夸克网盘](https://pan.quark.cn/s/e5f199ce7355)，[网盘2](https:)
+- 2025-01-17-15-54-34: [夸克网盘](https://pan.quark.cn/s/e5f199ce7355)
 
-- 2025-01-17-18-00-01: [夸克网盘](https://pan.quark.cn/s/36aeeb101daf)，[网盘2](https:)
+- 2025-01-17-18-00-01: [夸克网盘](https://pan.quark.cn/s/36aeeb101daf)
 
 
 ## 3 文件说明
@@ -96,15 +96,15 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
   <img width="700pix" src="img/FileStructure.png">
 </p>
 
-**1)** 名称中带有''ROS''标识符的''.bag''文件，是在ROS下收集的数据，包括来自IMU、相机和GNSS接收机的数据。具体topic名称上图所示，其中蓝色背景代表IMU相关的topic，黄色背景对应相机相关的topic，绿色背景表示GNSS接收机相关的topic。此外，*/INTELcam/imu* 指的是INTEL相机内置IMU的数据，也包含在数据集中。**注意**：城市序列数据文件夹''2025-01-15-17-01-24''中的包文件不包含任何与相机和IMU1相关的topic。
+**1)** 名称中带有''ROS''标识符的`.bag`文件，是在ROS下收集的数据，包括来自IMU、相机和GNSS接收机的数据。具体topic名称上图所示，其中蓝色背景代表IMU相关的topic，黄色背景对应相机相关的topic，绿色背景表示GNSS接收机相关的topic。此外，*/INTELcam/imu* 指的是INTEL相机内置IMU的数据，也包含在数据集中。**注意**：城市序列数据文件夹''2025-01-15-17-01-24''中的包文件不包含任何与相机和IMU1相关的topic。
 
-**2)** 名称中带有''GNSS1''标识符的''.sbf''和''.25O''文件，是由GNSS接收机1内部记录的原始数据文件。对应两种不同的数据格式：二进制SBF（Septentrio二进制格式）文件、RINEX格式文件。其中，RINEX格式的文件由Septentrio的官方''SBF Converter''软件转换生成。如有其他格式需求，可以去Septentrio官网自行下载''RxTools''软件（[Septentrio官网链接](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools#resources)），其中包含了''SBF Converter''，然后可以对''.sbf''文件进行转换。
+**2)** 名称中带有''GNSS1''标识符的`.sbf`和`.25O`文件，是由GNSS接收机1内部记录的原始数据文件。对应两种不同的数据格式：二进制SBF（Septentrio二进制格式）文件、RINEX格式文件。其中，RINEX格式的文件由Septentrio的官方''SBF Converter''软件转换生成。如有其他格式需求，可以去Septentrio官网自行下载''RxTools''软件（[Septentrio官网链接](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools#resources)），其中包含了''SBF Converter''，然后可以对''.sbf''文件进行转换。
 
-**3)** 名称中带有''RTCM''标识符的''.25o''文件，是以RINEX格式存储的RTK基准站数据，该RTCM文件的时间段覆盖ROS中保存数据的时段。
+**3)** 名称中带有''Correction''标识符的`.25o`文件，是以RINEX格式存储的RTK基准站数据，该RINEX文件的时间段覆盖ROS中保存数据的时段。
 
-**4)** 名称中带有''GT''标识符的''.txt''文件，是使用NovAtel的Inertial Explorer软件进行紧耦合后处理得到的结果，被用来作为Ground Truth。文件名后的数字后缀（1Hz、10Hz、20Hz）表示数据采样率，提供多种速率以满足不同的应用需求。为了方便查看Ground Truth轨迹，我们额外提供了Ground Truth 1Hz版本的KML文件，放在了''GT-1Hz-KML''文件夹中。
+**4)** 名称中带有''GT''标识符的`.txt`文件，是使用NovAtel的Inertial Explorer软件进行紧耦合后处理得到的结果，被用来作为Ground Truth。文件名后的数字后缀（1Hz、10Hz、20Hz）表示数据采样率，提供多种速率以满足不同的应用需求。为了方便查看Ground Truth轨迹，我们额外提供了Ground Truth 1Hz版本的KML文件，放在了''GT-1Hz-KML''文件夹中。
 
-**5)** IMU 和相机的标定结果文件存储在单独的''Calibration''文件夹中。此外，三个IMU以及Ground Truth到GNSS主天线之间的杆臂值放置在 ''Lever Arms.txt''文件中。
+**5)** IMU 和相机的标定结果文件存储在单独的''Calibration''文件夹中。此外，三个IMU以及Ground Truth到GNSS主天线之间的杆臂值放置在 `Lever Arms.txt`文件中。
 
 **6)** 关于两个GNSS接收机对应的topic中的message格式，可以参考：ublox ROS驱动（[ublox ROS driver](https://github.com/KumarRobotics/ublox)），ublox消息格式（[ublox message](https://docs.ros.org/en/kinetic/api/ublox_msgs/html/index-msg.html)），Septentrio ROS驱动（[Septentrio ROS driver](https://github.com/septentrio-gnss/septentrio_gnss_driver)）。
 
@@ -149,7 +149,7 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 
 ## 4 引用
 如果我们的数据集对你有所帮助，并且将它用在公开发表的论文或学术研究中，请引用我们的论文：
-（已投稿，将在录用后更新）
+（已投稿至TIM，将在录用后更新，当前可以直接引用GitHub网址）
 ~~~
 @article{xxxxx,
   title={xxxxxx},
