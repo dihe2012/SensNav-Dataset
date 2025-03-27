@@ -5,7 +5,7 @@
  传感器包括：一个RGB前视相机、一个指向天空的鱼眼相机、三个IMU、两个GNSS接收机和一个高精度GNSS/INS组合导航系统（提供Ground Truth）。
 
  <p align="center">
-  <img width="500pix" src="img/ExampleImages.png">
+  <img width="1000pix" src="img/ExampleImages.png">
 </p>
 
 ## 1 数据集说明

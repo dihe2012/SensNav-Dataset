@@ -7,7 +7,7 @@ The SensNav dataset contains six data sequences: five campus scenes and one urba
 The sensor suite comprises: a forward-looking RGB camera, a sky-view fisheye camera, three inertial measurement units (IMUs), two GNSS receivers, and a high-precision GNSS/INS integrated navigation system (providing ground truth trajectory).
 
  <p align="center">
-  <img width="500pix" src="img/ExampleImages.png">
+  <img width="1000pix" src="img/ExampleImages.png">
 </p>
 
 ## 1 Description of the Dataset
