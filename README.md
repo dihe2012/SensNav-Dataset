@@ -159,18 +159,19 @@ Below is the ground truth trajectory of all data series, visualized in Google Ea
 
 ## 4 Citations
 If our dataset is helpful to your research and you use it in a publicly published paper or academic work, please cite our paper:  
-(Submitted to TIM, will be updated upon acceptance.)
+https://ieeexplore.ieee.org/abstract/document/11048645
 
 ~~~
-@article{xxxxx,
-  title={xxxxxx},
-  author={xxxxxxxx},
-  journal={xxxxxxxx},
-  volume={0},
-  number={0},
-  pages={0--0},
+@ARTICLE{11048645,
+  author={Gao, Xuyu and Yang, Yuting and He, Di and Ma, Ziwei and Yu, Wenxian and Yang, Ke},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={SensNav: A Multisensor Vehicle Navigation Dataset for Campus and Urban Environments With a Long Tunnel}, 
   year={2025},
-  publisher={IEEE}
-}
+  volume={74},
+  number={},
+  pages={1-12},
+  keywords={Global navigation satellite system;Cameras;Navigation;Location awareness;Autonomous vehicles;Sensors;Trajectory;Laser radar;Synchronization;Heuristic algorithms;Campus and urban environments;fisheye imagery;multisensor fusion;raw global navigation satellite system (GNSS) measurements;SensNav dataset;tunnel navigation},
+  doi={10.1109/TIM.2025.3582308}}
+
 ~~~
 

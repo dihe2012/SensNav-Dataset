@@ -152,17 +152,19 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 
 ## 4 引用
 如果我们的数据集对你有所帮助，并且将它用在公开发表的论文或学术研究中，请引用我们的论文：
-（已投稿至TIM，将在录用后更新，当前可以直接引用GitHub网址）
+https://ieeexplore.ieee.org/abstract/document/11048645
+
 ~~~
-@article{xxxxx,
-  title={xxxxxx},
-  author={xxxxxxxx},
-  journal={xxxxxxxx},
-  volume={0},
-  number={0},
-  pages={0--0},
+@ARTICLE{11048645,
+  author={Gao, Xuyu and Yang, Yuting and He, Di and Ma, Ziwei and Yu, Wenxian and Yang, Ke},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={SensNav: A Multisensor Vehicle Navigation Dataset for Campus and Urban Environments With a Long Tunnel}, 
   year={2025},
-  publisher={IEEE}
-}
+  volume={74},
+  number={},
+  pages={1-12},
+  keywords={Global navigation satellite system;Cameras;Navigation;Location awareness;Autonomous vehicles;Sensors;Trajectory;Laser radar;Synchronization;Heuristic algorithms;Campus and urban environments;fisheye imagery;multisensor fusion;raw global navigation satellite system (GNSS) measurements;SensNav dataset;tunnel navigation},
+  doi={10.1109/TIM.2025.3582308}}
+
 ~~~
 
