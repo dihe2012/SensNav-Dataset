@@ -1,5 +1,7 @@
 # SensNav Dataset
 
+ [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
  The Chinese version of the README is available [here](README_CN.md).
 
 The SensNav dataset contains six data sequences: five campus scenes and one urban scene. The urban scene spans 18.6 kilometers, including a 5.2-kilometer tunnel segment. The campus dataset features open-sky areas, tree-lined boulevards, and building-occluded regions.
@@ -157,11 +159,18 @@ Below is the ground truth trajectory of all data series, visualized in Google Ea
 </p>
 
 
-## 4 Citations
-If our dataset is helpful to your research and you use it in a publicly published paper or academic work, please cite our paper:  
-https://ieeexplore.ieee.org/abstract/document/11048645
+## License
 
-~~~
+The **dataset** is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). 
+
+**Note for commercial use:** If you wish to use the dataset for commercial purposes, please contact me directly to obtain a commercial license.
+
+## Citation
+If you use this dataset in your research, please cite our paper:
+
+https://ieeexplore.ieee.org/document/11048645
+
+```bibtex
 @ARTICLE{11048645,
   author={Gao, Xuyu and Yang, Yuting and He, Di and Ma, Ziwei and Yu, Wenxian and Yang, Ke},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
@@ -172,6 +181,4 @@ https://ieeexplore.ieee.org/abstract/document/11048645
   pages={1-12},
   keywords={Global navigation satellite system;Cameras;Navigation;Location awareness;Autonomous vehicles;Sensors;Trajectory;Laser radar;Synchronization;Heuristic algorithms;Campus and urban environments;fisheye imagery;multisensor fusion;raw global navigation satellite system (GNSS) measurements;SensNav dataset;tunnel navigation},
   doi={10.1109/TIM.2025.3582308}}
-
-~~~
-
+```

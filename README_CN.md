@@ -1,5 +1,7 @@
 # SensNav 数据集
 
+ [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
  SensNav数据集，共包含6条数据序列，其中五条是校园场景，一条是城市场景。城市场景数据长度为 18.6 公里，其中包含一条轨5.2公里的隧道数据。校园数据集开阔天空区域、林荫大道、建筑物遮挡等场景。
  
  传感器包括：一个RGB前视相机、一个指向天空的鱼眼相机、三个IMU、两个GNSS接收机和一个高精度GNSS/INS组合导航系统（提供Ground Truth）。
@@ -150,11 +152,19 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 </p>
 
 
-## 4 引用
-如果我们的数据集对你有所帮助，并且将它用在公开发表的论文或学术研究中，请引用我们的论文：
-https://ieeexplore.ieee.org/abstract/document/11048645
 
-~~~
+## License
+
+The **dataset** is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). 
+
+**Note for commercial use:** If you wish to use the dataset for commercial purposes, please contact me directly to obtain a commercial license.
+
+## Citation
+If you use this dataset in your research, please cite our paper:
+
+https://ieeexplore.ieee.org/document/11048645
+
+```bibtex
 @ARTICLE{11048645,
   author={Gao, Xuyu and Yang, Yuting and He, Di and Ma, Ziwei and Yu, Wenxian and Yang, Ke},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
@@ -165,6 +175,4 @@ https://ieeexplore.ieee.org/abstract/document/11048645
   pages={1-12},
   keywords={Global navigation satellite system;Cameras;Navigation;Location awareness;Autonomous vehicles;Sensors;Trajectory;Laser radar;Synchronization;Heuristic algorithms;Campus and urban environments;fisheye imagery;multisensor fusion;raw global navigation satellite system (GNSS) measurements;SensNav dataset;tunnel navigation},
   doi={10.1109/TIM.2025.3582308}}
-
-~~~
-
+```
