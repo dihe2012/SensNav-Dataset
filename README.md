@@ -83,19 +83,13 @@ After calibrating each IMU and camera individually, the RGB camera and the three
 | 2025-01-17-15-54-34 |     8.3 GB     |  07:54:34-08:08:58 |  863s (14m:23s) |   3865.18 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      Campus/Afternoon      |
 | 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      Campus/Night      |
 
-### 2.2 download
-**Link:**
-- 2025-01-15-14-25-49: [quark](https://pan.quark.cn/s/18e764b10ab2)
+### 2.2 Download
 
-- 2025-01-15-15-00-35: [quark](https://pan.quark.cn/s/99c057df934c)
-
-- 2025-01-15-17-01-24: [quark](https://pan.quark.cn/s/e024b31f3767)
-
-- 2025-01-15-19-17-15: [quark](https://pan.quark.cn/s/8f600a2a10e9)
-
-- 2025-01-17-15-54-34: [quark](https://pan.quark.cn/s/9810889e2788)
-
-- 2025-01-17-18-00-01: [quark](https://pan.quark.cn/s/afce9da2ef75)
+> **Temporary suspension of dataset downloads**
+>
+> The download links have been temporarily disabled while we review and reorganize the dataset. Some campus image sequences may contain identifiable faces and vehicle license plates. We are applying privacy-preserving anonymization, including irreversible blurring or masking, followed by manual quality review. The urban sequence does not contain camera imagery.
+>
+> An updated, anonymized version of the dataset and new download links will be published here after the processing and verification are complete.
 
 
 ## 3 File Description
@@ -159,11 +153,21 @@ Below is the ground truth trajectory of all data series, visualized in Google Ea
 </p>
 
 
+## Privacy and Sensitive Information
+
+The dataset was collected using vehicle-mounted sensors in campus and urban environments. The campus sequences include camera imagery that may have captured pedestrians and vehicle license plates. Before the dataset is re-released, the visual data will be processed to anonymize identifiable faces and license plates through irreversible blurring or masking, followed by manual quality review. The urban sequence contains no camera imagery.
+
+Original, non-anonymized visual recordings are not included in the public release and are not licensed for public use. If you believe that any released file contains identifiable personal information, please contact the repository maintainers. After verification, the affected data will be removed or further anonymized as appropriate.
+
+The license below grants permissions relating to copyright and database rights only. It does not grant any rights relating to privacy, portrait rights, personality rights, or other third-party rights. Dataset users remain responsible for complying with applicable privacy and data-protection laws. Any attempt to re-identify individuals or reconstruct anonymized information is outside the permissions addressed by the CC license and remains subject to applicable law.
+
 ## License
 
-The **dataset** is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). 
+Unless otherwise stated, the publicly released and anonymized **dataset files** are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-**Note for commercial use:** If you wish to use the dataset for commercial purposes, please contact me directly to obtain a commercial license.
+This license does not apply to original non-anonymized recordings, identifiable personal information, non-public materials, or third-party rights. Such materials are not part of the public dataset release.
+
+**Note for commercial use:** If you wish to use the dataset for commercial purposes, please contact the repository maintainers to obtain a separate commercial license.
 
 ## Citation
 If you use this dataset in your research, please cite our paper:

@@ -76,19 +76,12 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 | 2025-01-17-18-00-01 |     6.0 GB     |  10:00:01-10:18:24 | 1103s (18m:23s) |   5516.12 m  | IMU1, IMU2, IMU3, GNSS Receiver 1(RTK), GNSS Receiver 2, RGB camera, Fisheye camera, Ground Truth |      校园/晚上      |
 
 ### 2.2 下载
-**链接：**
 
-- 2025-01-15-14-25-49: [夸克网盘](https://pan.quark.cn/s/18e764b10ab2)
-
-- 2025-01-15-15-00-35: [夸克网盘](https://pan.quark.cn/s/99c057df934c)
-
-- 2025-01-15-17-01-24: [夸克网盘](https://pan.quark.cn/s/e024b31f3767)
-
-- 2025-01-15-19-17-15: [夸克网盘](https://pan.quark.cn/s/8f600a2a10e9)
-
-- 2025-01-17-15-54-34: [夸克网盘](https://pan.quark.cn/s/9810889e2788)
-
-- 2025-01-17-18-00-01: [夸克网盘](https://pan.quark.cn/s/afce9da2ef75)
+> **数据集下载暂时关闭**
+>
+> 在对数据集进行审查和重新整理期间，我们暂时关闭了下载链接。部分校园图像序列可能包含可识别的人脸和机动车号牌。我们正在对相关视觉数据进行隐私保护处理，包括不可逆的模糊或遮挡，并在处理后进行人工质量检查。城区序列不包含相机图像。
+>
+> 完成处理和核验后，我们将在此发布经过匿名化处理的新版数据集及新的下载链接。
 
 
 
@@ -153,11 +146,21 @@ Note: FOV denotes field of view, with H-FOV, V-FOV, and D-FOV representing horiz
 
 
 
-## License
+## 隐私与敏感信息说明
 
-The **dataset** is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). 
+本数据集通过车载传感器在校园和城区环境中采集。校园序列包含相机图像，其中可能记录了路人和机动车号牌。在数据集重新发布前，我们将通过不可逆的模糊或遮挡对视觉数据中可识别的人脸和车牌进行匿名化处理，并在处理后进行人工质量检查。城区序列不包含相机图像。
 
-**Note for commercial use:** If you wish to use the dataset for commercial purposes, please contact me directly to obtain a commercial license.
+未经匿名化处理的原始视觉记录不会包含在公开版本中，也不授权公众使用。如果您认为已发布的文件仍包含可识别的个人信息，请联系本仓库维护者。经核实后，我们将视情况删除相关数据或进行进一步匿名化处理。
+
+下述许可证仅授予与著作权和数据库权利相关的许可，不授予任何隐私权、肖像权、人格权或其他第三方权利。数据集使用者仍须遵守适用的隐私和个人信息保护法律。尝试重新识别个人或还原已经匿名化的信息，不属于 CC 许可证所授予的权限，并仍受适用法律约束。
+
+## 许可证
+
+除另有说明外，公开发布且已经匿名化处理的**数据集文件**采用 [Creative Commons Attribution-NonCommercial 4.0 International License（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/)许可。
+
+该许可证不适用于未经匿名化处理的原始记录、可识别的个人信息、未公开材料或第三方权利；这些内容不属于公开发布的数据集。
+
+**商业使用说明：** 如需将本数据集用于商业目的，请联系本仓库维护者另行取得商业许可。
 
 ## Citation
 If you use this dataset in your research, please cite our paper:
