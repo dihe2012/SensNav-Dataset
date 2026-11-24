@@ -94,7 +94,7 @@ After calibrating each IMU and camera individually, the RGB camera and the three
 
 ## 3 File Description
 ### 3.1 File Structure and Description
-数据集中的文件结构如下图所示：
+The file structure in the dataset is shown in the figure below:
 
 <p align="center">
   <img width="700pix" src="img/FileStructure.png">
